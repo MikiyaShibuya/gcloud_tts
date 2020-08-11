@@ -4,6 +4,11 @@ Generate speech via Google cloud TTS
 ## Install requirements
 `pip install -r requirements.txt`
 
+## Prepare the TTS credentials
+Generate credential key on the API console.  
+https://cloud.google.com/text-to-speech  
+The private key have to be written to `credentials.json`
+
 ## Generate speech
 For testing text to convert, execute the bellow command without "-e" option.  
 `python gcloud_tts.py -c config.yaml {any text file} [-n target_section] [-e]`
