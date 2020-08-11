@@ -1,0 +1,4 @@
+argparse
+pyyaml
+tqdm
+google-cloud-texttospeech==1.0.1
