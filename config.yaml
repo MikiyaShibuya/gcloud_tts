@@ -1,0 +1,9 @@
+replace:
+  - from: "VSLAM"
+    to: "V SLAM"
+  - from: "AR"
+    to: "A R"
+  - from: "MR"
+    to: "M R"
+  - from: "KITTI"
+    to: "kitty"
